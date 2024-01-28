@@ -1,15 +1,12 @@
-import GeneralInformation from './components/general-information'
-import EducationalExperience from './components/educational-experience'
-import PracticalExperience from './components/practical-experience'
+import CV from './components/CV';
+// import './index.css'
 
 function App() {
-    return (
-        <div>
-          <GeneralInformation />
-          <EducationalExperience />
-          <PracticalExperience />
-        </div>
-      );
+  return (
+    <>
+      <CV />
+    </>
+  );
 }
 
-export default App
+export default App;
